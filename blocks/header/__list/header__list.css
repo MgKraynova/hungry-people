@@ -4,5 +4,5 @@
     margin: 0;
     display: flex;
     flex-direction: row;
-    gap: 92px;
+    padding-top: 16px;
 }

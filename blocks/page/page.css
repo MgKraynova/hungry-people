@@ -1,4 +1,6 @@
 .page {
+    max-width: 1440px;
+
     margin-top: 0;
     margin-bottom: 0;
     margin-right: auto;
@@ -6,4 +8,8 @@
 
     font-family: Open Sans;
     font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

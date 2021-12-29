@@ -1,6 +1,5 @@
 .container {
     background-image: url(../../images/header-bg.jpg);
-    max-width: 1440px;
     height: 100vh;
     background-size: cover;
 }

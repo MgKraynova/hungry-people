@@ -1,8 +1,14 @@
 .header__link {
+    display: block;
     font-weight: bold;
     font-size: 12px;
     line-height: 150%;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
     color: #FFFFFF;
     text-transform: uppercase;
+    width: 133px;
+    height: 100px;
+    outline: 1px solid red;
 }
