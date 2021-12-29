@@ -13,4 +13,12 @@
     font-style: normal;
     font-weight: 700;
   }
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url("../fonts/HelveticaNeueCyr-Roman.woff2")format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
   

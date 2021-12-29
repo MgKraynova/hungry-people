@@ -1,0 +1,10 @@
+.title-container__title {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

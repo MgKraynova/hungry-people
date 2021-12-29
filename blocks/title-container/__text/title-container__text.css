@@ -1,0 +1,10 @@
+.title-container__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 117%;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
