@@ -1,6 +1,7 @@
 .work-hours__text {
     margin: 0;
-    transform: rotate(-90deg);
+    writing-mode: vertical-rl;
+    transform:rotate(180deg);
     font-style: normal;
     font-weight: bold;
     font-size: 12px;

@@ -7,4 +7,6 @@
     letter-spacing: 0.5em;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: block;
+    margin: 0;
 }

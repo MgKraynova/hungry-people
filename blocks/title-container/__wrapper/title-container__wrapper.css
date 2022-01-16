@@ -1,0 +1,6 @@
+.title-container__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}

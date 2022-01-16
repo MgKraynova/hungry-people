@@ -20,12 +20,15 @@
 @import url(../blocks/work-hours/work-hours.css);
 @import url(../blocks/work-hours/__text/work-hours__text.css);
 
+@import url(../blocks/title-container/title-container.css);
 @import url(../blocks/title-container/__text/title-container__text.css);
 @import url(../blocks/title-container/__title/title-container__title.css);
+@import url(../blocks/title-container/__wrapper/title-container__wrapper.css);
 @import url(../blocks/title-container/__button/title-container__button.css);
 @import url(../blocks/title-container/__button/_active/title-container__button_active.css);
 @import url(../blocks/title-container/__line/title-container__line.css);
 
+@import url(../blocks/social-icons/social-icons.css);
 @import url(../blocks/social-icons/__link/social-icons__link.css);
 @import url(../blocks/social-icons/__link/_fb/social-icons__link_fb.css);
 @import url(../blocks/social-icons/__link/_instagram/social-icons__link_instagram.css);
