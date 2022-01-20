@@ -1,15 +1,14 @@
-.title-container__title {
+.text-container__title {
     font-family: Helvetica Neue, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 96px;
+    font-size: 36px;
+    line-height: 133%;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    display: block;
     outline: 1px solid red;
     margin-top: 0;
-    margin-right: 0;
+    margin-bottom: 8px;
     margin-left: 0;
-    margin-bottom: 12px;
+    margin-right: 0;
 }

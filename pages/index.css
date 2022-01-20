@@ -8,6 +8,7 @@
 
 @import url(../blocks/link/link.css);
 @import url(../blocks/list/list.css);
+@import url(../blocks/line/line.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__list/header__list.css);
@@ -33,3 +34,34 @@
 @import url(../blocks/social-icons/__link/_fb/social-icons__link_fb.css);
 @import url(../blocks/social-icons/__link/_instagram/social-icons__link_instagram.css);
 @import url(../blocks/social-icons/__link/_twitter/social-icons__link_twitter.css);
+
+@import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__content/about-us__content.css);
+@import url(../blocks/about-us/__title/about-us__title.css);
+@import url(../blocks/about-us/__text/about-us__text.css);
+@import url(../blocks/about-us/__image/about-us__image.css);
+@import url(../blocks/about-us/__text-container/about-us__text-container.css);
+@import url(../blocks/about-us/__line/about-us__line.css);
+@import url(../blocks/about-us/__subtitle/about-us__subtitle.css);
+
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__content/team__content.css);
+
+@import url(../blocks/text-container/text-container.css);
+@import url(../blocks/text-container/__title/text-container__title.css);
+@import url(../blocks/text-container/__title/_color/text-container__title_color_white.css);
+@import url(../blocks/text-container/__title/_color/text-container__title_color_black.css);
+@import url(../blocks/text-container/__title/_color/text-container__title_color_white.css);
+@import url(../blocks/text-container/__subtitle/text-container__subtitle.css);
+@import url(../blocks/text-container/__subtitle/_color/text-container__subtitle_color_black.css);
+@import url(../blocks/text-container/__subtitle/_color/text-container__subtitle_color_white.css);
+@import url(../blocks/text-container/__text/text-container__text.css);
+@import url(../blocks/text-container/__text/_color/text-container__text_color_black.css);
+@import url(../blocks/text-container/__text/_color/text-container__text_color_white.css);
+@import url(../blocks/text-container/__line/text-container__line.css);
+
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__content/section__content.css);
+@import url(../blocks/section/__image/section__image.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__title/_color/section__title_color_white.css);

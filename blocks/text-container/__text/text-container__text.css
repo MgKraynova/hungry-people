@@ -1,0 +1,13 @@
+.text-container__text {
+    font-family: Open Sans, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    outline: 1px solid red;
+}

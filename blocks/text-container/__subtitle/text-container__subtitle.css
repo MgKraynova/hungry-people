@@ -1,0 +1,13 @@
+.text-container__subtitle {
+    font-family: Open Sans, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    outline: 1px solid red;
+}

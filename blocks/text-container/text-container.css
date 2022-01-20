@@ -1,0 +1,9 @@
+.text-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 117px;
+    align-items: center;
+    max-width: 600px;
+    padding-right: 80px;
+    padding-left: 81px;
+}
