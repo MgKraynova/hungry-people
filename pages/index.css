@@ -79,3 +79,6 @@
 @import url(../blocks/booking/__button/booking__button.css);
 @import url(../blocks/booking/__text/booking__text.css);
 @import url(../blocks/booking/__bold-text/booking__bold-text.css);
+
+@import url(../blocks/pancakes/pancakes.css);
+@import url(../blocks/pancakes/__content/pancakes__content.css);
