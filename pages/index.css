@@ -9,6 +9,7 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/list/list.css);
 @import url(../blocks/line/line.css);
+@import url(../blocks/button/button.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__list/header__list.css);
@@ -65,3 +66,16 @@
 @import url(../blocks/section/__image/section__image.css);
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__title/_color/section__title_color_white.css);
+
+@import url(../blocks/booking/booking.css);
+@import url(../blocks/booking/__content/booking__content.css);
+@import url(../blocks/booking/__title/booking__title.css);
+@import url(../blocks/booking/__form-container/booking__form-container.css);
+@import url(../blocks/booking/__form/booking__form.css);
+@import url(../blocks/booking/__inputs/booking__inputs.css);
+@import url(../blocks/booking/__input/booking__input.css);
+@import url(../blocks/booking/__option/booking__option.css);
+@import url(../blocks/booking/__image/booking__image.css);
+@import url(../blocks/booking/__button/booking__button.css);
+@import url(../blocks/booking/__text/booking__text.css);
+@import url(../blocks/booking/__bold-text/booking__bold-text.css);

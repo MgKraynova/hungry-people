@@ -1,15 +1,6 @@
 .title-container__button {
-    text-transform: uppercase;
     display: block;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 167%;
-    text-align: center;
-    color: #FFFFFF;
-    border-radius: 5px;
     width: 200px;
-    height: 60px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     padding-top: 20px;
     box-sizing: border-box;
