@@ -1,0 +1,5 @@
+.menu__item {
+    display: flex;
+    width: 363px;
+    outline: 1px solid red;
+}

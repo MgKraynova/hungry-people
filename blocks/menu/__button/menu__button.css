@@ -1,0 +1,24 @@
+.menu__button {
+    font-family: Open Sans, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-right: 1px solid rgba(51, 51, 51, 0.5);
+    color: #333333;
+    text-transform: uppercase;
+    width: 120px;
+    height: 50px;
+    outline: 1px solid blue;
+}
+
+.menu__button:last-of-type {
+    border-right: none;
+}
+
+.menu__button:hover {
+    cursor: pointer;
+}

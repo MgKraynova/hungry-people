@@ -1,0 +1,9 @@
+.menu__description {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    color: rgba(51, 51, 51, 0.5);
+    margin: 0;
+}
