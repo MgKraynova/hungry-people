@@ -1,0 +1,9 @@
+.footer__text {
+    font-family: Open Sans, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}

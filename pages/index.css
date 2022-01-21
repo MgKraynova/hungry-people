@@ -116,3 +116,6 @@
 @import url(../blocks/contact/__input/contact__input.css);
 @import url(../blocks/contact/__container/contact__container.css);
 @import url(../blocks/contact/__title/contact__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
