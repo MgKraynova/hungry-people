@@ -9,3 +9,7 @@
     text-transform: uppercase;
     height: 60px;
 }
+
+.button:hover {
+    cursor: pointer;
+}

@@ -13,18 +13,18 @@
             <nav class="header__menu">
                 <ul class="header__list list">
                     <li class="header__item"><a class="header__link link" href="#">Home</a></li>
-                    <li class="header__item"><a class="header__link link" href="#">About</a></li>
-                    <li class="header__item"><a class="header__link link" href="#">Team</a></li>
-                    <li class="header__item"><a class="header__link link" href="#">Booking</a></li>
+                    <li class="header__item"><a class="header__link link" href="#about">About</a></li>
+                    <li class="header__item"><a class="header__link link" href="#team">Team</a></li>
+                    <li class="header__item"><a class="header__link link" href="#booking">Booking</a></li>
                 </ul>
             </nav>
             <img alt="колесо" class="header__image" src="../images/wheel.svg">
             <nav class="header__menu">
                 <ul class="header__list list">
-                    <li class="header__item"><a class="header__link link" href="#">Menu</a></li>
+                    <li class="header__item"><a class="header__link link" href="#menu">Menu</a></li>
                     <li class="header__item"><a class="header__link link" href="#">Galerie</a></li>
-                    <li class="header__item"><a class="header__link link" href="#">Events</a></li>
-                    <li class="header__item"><a class="header__link link" href="#">Contact</a></li>
+                    <li class="header__item"><a class="header__link link" href="#events">Events</a></li>
+                    <li class="header__item"><a class="header__link link" href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -35,24 +35,27 @@
                 <h1 class="title-container__title">hungry people</h1>
                 <div class="title-container__line line"></div>
                 <div class="title-container__wrapper">
-                    <a class="title-container__button button_active button link">book table</a>
-                    <a class="title-container__button button link">explore</a>
+                    <a  href="#booking" class="title-container__button button_active button link">book table</a>
+                    <a href="#menu" class="title-container__button button link">explore</a>
                 </div>
             </div>
             <ul class="social-icons list">
                 <li class="social-icons__item">
-                    <a class="social-icons__link social-icons__link_fb link"></a>
+                    <a href="https://www.facebook.com/" target="_blank"
+                       class="social-icons__link social-icons__link_fb link"></a>
                 </li>
                 <li class="social-icons__item">
-                    <a class="social-icons__link social-icons__link_twitter link"></a>
+                    <a href="https://twitter.com/?lang=ru" target="_blank"
+                       class="social-icons__link social-icons__link_twitter link"></a>
                 </li>
                 <li class="social-icons__item">
-                    <a class="social-icons__link social-icons__link_instagram link"></a>
+                    <a href="https://www.instagram.com/" target="_blank"
+                       class="social-icons__link social-icons__link_instagram link"></a>
                 </li>
             </ul>
         </section>
     </div>
-    <section class="about-us section">
+    <section id="about" class="about-us section">
         <div class="about-us__content section__content">
             <div class="text-container">
                 <h2 class="text-container__title subtitle subtitle_color_black">about us</h2>
@@ -68,7 +71,7 @@
             <img class="about-us__image section__image" src="../images/about-img.png" alt="Раскаленные дрова в ресторане">
         </div>
     </section>
-    <section class="team section">
+    <section id="team" class="team section">
         <h2 class="section__title title">our team</h2>
         <div class="team__content section__content">
             <img alt="Cook at work" src="../images/cook.png" class="section__image">
@@ -85,7 +88,7 @@
             </div>
         </div>
     </section>
-    <section class="booking">
+    <section id="booking" class="booking">
         <div class="booking__content">
             <div class="booking__form-container">
                 <h2 class="booking__title subtitle subtitle_color_black">book a table</h2>
@@ -144,7 +147,7 @@
             </div>
         </div>
     </section>
-    <section class="menu">
+    <section id="menu" class="menu">
         <h2 class="menu__title subtitle subtitle_color_black">delicious menu</h2>
         <div class="line"></div>
         <p class="menu__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -314,7 +317,7 @@
             </ul>
         </div>
     </section>
-    <section class="events section">
+    <section id="events" class="events section">
         <h2 class="section__title title">PRIVATE EVENTS</h2>
         <div class="events__content">
             <div class="events__wrapper">
@@ -331,7 +334,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact">
         <h2 class="subtitle contact__title">contact</h2>
         <div class="line"></div>
         <p class="contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
