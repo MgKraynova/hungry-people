@@ -1,0 +1,12 @@
+.events__caption {
+    color: #FFFFFF;
+    writing-mode: vertical-rl;
+    margin: 0;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 50%;
+    text-indent: 20px;
+    text-transform: uppercase;
+}

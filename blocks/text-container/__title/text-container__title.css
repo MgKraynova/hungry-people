@@ -1,11 +1,4 @@
 .text-container__title {
-    font-family: Helvetica Neue, Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 133%;
-    text-align: center;
-    text-transform: uppercase;
     outline: 1px solid red;
     margin-top: 0;
     margin-bottom: 8px;

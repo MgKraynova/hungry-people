@@ -1,0 +1,5 @@
+.contact__inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}

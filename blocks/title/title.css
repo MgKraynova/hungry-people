@@ -1,0 +1,13 @@
+.title {
+    font-family: Open Sans, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 117%;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 0;
+    color: #FFFFFF;
+}

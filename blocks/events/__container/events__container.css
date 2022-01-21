@@ -1,0 +1,6 @@
+.events__container {
+    background-color: black;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}

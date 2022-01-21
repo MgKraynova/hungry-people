@@ -9,7 +9,17 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/list/list.css);
 @import url(../blocks/line/line.css);
+@import url(../blocks/title/title.css);
+
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/_active/button_active.css);
+
+@import url(../blocks/input/input.css);
+@import url(../blocks/input/_size/input_size_big.css);
+
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/subtitle/_color/subtitle_color_black.css);
+@import url(../blocks/subtitle/_color/subtitle_color_white.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__list/header__list.css);
@@ -27,7 +37,6 @@
 @import url(../blocks/title-container/__title/title-container__title.css);
 @import url(../blocks/title-container/__wrapper/title-container__wrapper.css);
 @import url(../blocks/title-container/__button/title-container__button.css);
-@import url(../blocks/title-container/__button/_active/title-container__button_active.css);
 @import url(../blocks/title-container/__line/title-container__line.css);
 
 @import url(../blocks/social-icons/social-icons.css);
@@ -38,12 +47,6 @@
 
 @import url(../blocks/about-us/about-us.css);
 @import url(../blocks/about-us/__content/about-us__content.css);
-@import url(../blocks/about-us/__title/about-us__title.css);
-@import url(../blocks/about-us/__text/about-us__text.css);
-@import url(../blocks/about-us/__image/about-us__image.css);
-@import url(../blocks/about-us/__text-container/about-us__text-container.css);
-@import url(../blocks/about-us/__line/about-us__line.css);
-@import url(../blocks/about-us/__subtitle/about-us__subtitle.css);
 
 @import url(../blocks/team/team.css);
 @import url(../blocks/team/__content/team__content.css);
@@ -65,7 +68,6 @@
 @import url(../blocks/section/__content/section__content.css);
 @import url(../blocks/section/__image/section__image.css);
 @import url(../blocks/section/__title/section__title.css);
-@import url(../blocks/section/__title/_color/section__title_color_white.css);
 
 @import url(../blocks/booking/booking.css);
 @import url(../blocks/booking/__content/booking__content.css);
@@ -95,3 +97,22 @@
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__price/menu__price.css);
 @import url(../blocks/menu/__text/menu__text.css);
+
+@import url(../blocks/events/events.css);
+@import url(../blocks/events/__content/events__content.css);
+@import url(../blocks/events/__wrapper/events__wrapper.css);
+@import url(../blocks/events/__image/events__image.css);
+@import url(../blocks/events/__container/events__container.css);
+@import url(../blocks/events/__caption/events__caption.css);
+@import url(../blocks/events/__caption/_type/events__caption_type_reverse.css);
+
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__subtitle/contact__subtitle.css);
+@import url(../blocks/contact/__icon/contact__icon.css);
+@import url(../blocks/contact/__item/contact__item.css);
+@import url(../blocks/contact/__text/contact__text.css);
+@import url(../blocks/contact/__button/contact__button.css);
+@import url(../blocks/contact/__inputs/contact__inputs.css);
+@import url(../blocks/contact/__input/contact__input.css);
+@import url(../blocks/contact/__container/contact__container.css);
+@import url(../blocks/contact/__title/contact__title.css);

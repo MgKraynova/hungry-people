@@ -1,0 +1,8 @@
+.input_size_big {
+    height: 120px;
+    width: 1280px;
+}
+
+.input_size_big::placeholder {
+    transform: translateY(-45px) translateY(50%);
+}

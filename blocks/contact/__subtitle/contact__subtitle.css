@@ -1,0 +1,12 @@
+.contact__subtitle {
+    font-family: Open Sans, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 48px;
+    margin-top: 22px;
+    max-width: 565px;
+}

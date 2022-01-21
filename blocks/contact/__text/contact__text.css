@@ -1,0 +1,10 @@
+.contact__text {
+    font-family: Open Sans, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 100%;
+    color: rgba(51, 51, 51, 0.5);
+    margin: 0;
+    display: block;
+}
