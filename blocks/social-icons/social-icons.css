@@ -4,3 +4,9 @@
     gap: 20px;
     align-self: center;
 }
+
+@media screen and (max-width: 599px) {
+    .social-icons {
+        flex-direction: row;
+    }
+}

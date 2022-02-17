@@ -5,3 +5,23 @@
     width: 563.58px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 639px) {
+    .booking__button  {
+        width: 410px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .booking__button {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .booking__button {
+        width: 250px;
+    }
+}

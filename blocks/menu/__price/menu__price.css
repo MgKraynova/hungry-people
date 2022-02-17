@@ -2,3 +2,9 @@
     margin: 0;
     margin-left: 5px;
 }
+
+@media screen and (max-width: 474px) {
+    .menu__price {
+        text-align: end;
+    }
+}

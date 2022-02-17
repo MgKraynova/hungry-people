@@ -6,3 +6,10 @@
 .input_size_big::placeholder {
     transform: translateY(-45px) translateY(50%);
 }
+
+@media screen and (max-width: 1439px) {
+    .input_size_big {
+        max-width: 1280px;
+        width: 100%;
+    }
+}

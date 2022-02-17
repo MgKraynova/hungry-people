@@ -4,3 +4,32 @@
     width: 475px;
     height: 475px;
 }
+
+@media screen and (max-width: 1299px) {
+    .booking__image {
+        width: 425px;
+        height: 425px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .booking__image {
+        width: 375px;
+        height: 375px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1116px) {
+    .booking__image {
+        width: 345px;
+        height: 345px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .booking__image {
+        display: none;
+    }
+}

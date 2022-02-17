@@ -5,3 +5,9 @@
     margin-left: 0;
     margin-right: 0;
 }
+
+@media screen and (max-width: 699px) {
+    .text-container__title {
+        margin-bottom: 20px;
+    }
+}

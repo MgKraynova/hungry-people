@@ -4,3 +4,31 @@
     height: 475px;
     filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
 }
+
+@media screen and (max-width: 1049px) {
+    .section__image {
+        width: 425px;
+        height: 425px;
+    }
+}
+
+@media screen and (max-width: 969px) {
+    .section__image {
+        width: 375px;
+        height: 375px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .section__image {
+        width: 345px;
+        height: 345px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .section__image {
+        display: none;
+    }
+}

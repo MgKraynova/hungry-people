@@ -5,3 +5,27 @@
     padding-top: 20px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 899px) {
+    .title-container__button {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .title-container__button {
+        max-width: 220px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 469px) {
+    .title-container__button {
+        margin-bottom: 0;
+        width: 200px;
+    }
+
+    .title-container__button:last-of-type {
+        margin-bottom: 30px;
+    }
+}

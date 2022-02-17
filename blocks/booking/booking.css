@@ -4,4 +4,34 @@
     padding-right: 193px;
     padding-bottom: 30px;
     background-color: #FFFFFF;
+    outline: 1px solid yellow;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+    .booking {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1116px) {
+    .booking {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .booking {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .booking {
+        padding-top: 50px;
+    }
 }

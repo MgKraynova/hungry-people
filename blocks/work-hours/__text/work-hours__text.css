@@ -11,3 +11,19 @@
     outline: 1px solid red;
     display: block;
 }
+
+@media screen and (max-width: 599px) {
+    .work-hours__text {
+        writing-mode: initial;
+        transform:rotate(0);
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 469px) {
+    .work-hours__text {
+        max-width: 200px;
+        font-weight: normal;
+    }
+}

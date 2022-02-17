@@ -2,3 +2,23 @@
     display: flex;
     gap: 95px;
 }
+
+@media screen and (max-width: 1439px) {
+    .menu__lists {
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1268px) {
+    .menu__lists {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 856px) {
+    .menu__lists {
+        gap: 30px;
+    }
+}

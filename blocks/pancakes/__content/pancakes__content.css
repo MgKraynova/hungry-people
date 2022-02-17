@@ -1,3 +1,33 @@
 .pancakes__content {
     padding-left: 205px;
 }
+
+@media screen and (max-width: 1299px) {
+    .pancakes__content {
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+    .pancakes__content {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 919px) {
+    .pancakes__content {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    .pancakes__content {
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .pancakes__content {
+        padding-left: 0;
+    }
+}

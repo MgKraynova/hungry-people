@@ -3,3 +3,16 @@
     justify-content: space-between;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 1009px) {
+    .contact__container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 752px) {
+    .contact__container {
+        justify-content: center;
+    }
+}

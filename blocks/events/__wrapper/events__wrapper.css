@@ -3,3 +3,12 @@
     width: 475px;
     height: 475px;
 }
+
+@media screen and (max-width: 1439px) {
+    .events__wrapper {
+        width: auto;
+        height: auto;
+    }
+}
+
+/*// ищменить длину и высоту*/

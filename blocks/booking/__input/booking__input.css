@@ -1,3 +1,21 @@
 .booking__input {
     width: 277px;
 }
+
+@media screen and (max-width: 639px) {
+    .booking__input  {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .booking__input  {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .booking__input  {
+        width: 250px;
+    }
+}

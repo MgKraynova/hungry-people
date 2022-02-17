@@ -2,4 +2,27 @@
     background-image: url("../../images/events-bg.png");
     padding-right: 205px;
     padding-left: 205px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+    .events {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .events {
+        padding-right: 80px;
+        padding-left: 80px;    }
+}
+
+@media screen and (max-width: 969px) {
+    .events {
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 80px;
+    }
 }

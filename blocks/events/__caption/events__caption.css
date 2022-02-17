@@ -10,3 +10,10 @@
     text-indent: 20px;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 380px) {
+    .events__caption {
+        font-size: 18px;
+    }
+}
+

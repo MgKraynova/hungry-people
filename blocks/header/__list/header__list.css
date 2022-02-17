@@ -1,5 +1,19 @@
 .header__list {
-    display: flex;
-    flex-direction: row;
     padding-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 90px;
+    row-gap: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+    .header__list {
+        column-gap: 60px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .header__list {
+        column-gap: 45px;
+    }
 }

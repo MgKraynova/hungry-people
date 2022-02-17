@@ -1,4 +1,26 @@
 .events__content {
     display: flex;
     gap: 80px;
+    box-sizing: border-box;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    max-width: 1030px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+    .events__content {
+        gap: 50px;
+        justify-content: space-between;
+        margin: 0;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .events__content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

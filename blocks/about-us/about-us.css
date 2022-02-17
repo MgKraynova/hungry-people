@@ -3,3 +3,33 @@
     padding-right: 204px;
     padding-top: 100px;
 }
+
+@media screen and (max-width: 1299px) {
+    .about-us {
+        padding-right: 150px;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+    .about-us {
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 919px) {
+    .about-us {
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    .about-us {
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .about-us {
+        padding-right: 0;
+    }
+}

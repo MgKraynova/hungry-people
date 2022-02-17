@@ -2,3 +2,12 @@
     display: flex;
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 899px) {
+    .menu__buttons {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 20px;
+        justify-content: center;
+    }
+}

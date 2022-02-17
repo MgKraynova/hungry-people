@@ -4,3 +4,10 @@
     gap: 40px;
     justify-content: center;
 }
+
+@media screen and (max-width: 469px) {
+    .title-container__wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

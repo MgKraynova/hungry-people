@@ -1,3 +1,33 @@
 .team__content {
     padding-left: 185px;
 }
+
+@media screen and (max-width: 1299px) {
+    .team__content {
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+    .team__content {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 919px) {
+    .team__content {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    .team__content {
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .team__content {
+        padding-left: 0;
+    }
+}

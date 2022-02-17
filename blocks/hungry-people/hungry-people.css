@@ -7,3 +7,24 @@
     min-height: 249px;
     outline: 1px solid red;
 }
+
+@media screen and (max-width: 1149px) {
+    .hungry-people {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .hungry-people {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .hungry-people {
+        flex-direction: column;
+        align-items: center;
+    }
+}

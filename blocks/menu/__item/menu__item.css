@@ -3,3 +3,17 @@
     width: 363px;
     outline: 1px solid red;
 }
+
+@media screen and (max-width: 474px) {
+    .menu__item {
+        width: 300px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .menu__item {
+        width: 260px;
+        justify-content: space-between;
+    }
+}

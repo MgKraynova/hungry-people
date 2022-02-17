@@ -1,4 +1,18 @@
 .header__image {
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 70px;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 1199px) {
+    .header__image {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .header__image {
+        width: 100px;
+        height: 100px;
+    }
 }

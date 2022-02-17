@@ -1,3 +1,16 @@
 .contact__input {
     width: 420px;
 }
+
+@media screen and (max-width: 1439px) {
+    .contact__input {
+        width: 100%;
+        max-width: 420px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact__input {
+        max-width: none;
+    }
+}

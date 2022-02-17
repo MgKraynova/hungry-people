@@ -1,3 +1,9 @@
 .text-container__line {
     margin-bottom: 12px;
 }
+
+@media screen and (max-width: 699px) {
+    .text-container__line {
+        margin-bottom: 30px;
+    }
+}

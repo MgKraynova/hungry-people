@@ -7,4 +7,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    outline: 1px solid yellow;
+}
+
+@media screen and (max-width: 1439px) {
+    .menu {
+        padding-left: 40px;
+        padding-right: 40px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .menu {
+        padding-top: 50px;
+    }
 }
