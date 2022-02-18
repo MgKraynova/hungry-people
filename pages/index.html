@@ -111,13 +111,13 @@
             <div class="booking__form-container">
                 <h2 class="booking__title subtitle subtitle_color_black">book a table</h2>
                 <div class="line"></div>
-                <form class="booking__form">
+                <form class="booking__form" id="booking__form">
                     <div class="booking__inputs">
-                        <input class="booking__input input" placeholder="Name">
-                        <input class="booking__input input" type="email" placeholder="Email">
-                        <input class="booking__input input" type="tel" placeholder="Phone">
-                        <select class="booking__input input" required>
-                            <option selected disabled hidden>People</option>
+                        <input class="booking__input input" required placeholder="Name">
+                        <input class="booking__input input" required type="email" placeholder="Email">
+                        <input class="booking__input input" required type="tel" placeholder="Phone">
+                        <select class="booking__input input" form="booking__form" required >
+                            <option selected disabled hidden value="">People</option>
                             <option class="booking__option">1</option>
                             <option class="booking__option">2</option>
                             <option class="booking__option">3</option>
@@ -125,9 +125,9 @@
                             <option class="booking__option">5</option>
                             <option class="booking__option">6</option>
                         </select>
-                        <input class="booking__input input" type="date" placeholder="Date (mm/dd)">
+                        <input class="booking__input input" required type="date" placeholder="Date (mm/dd)">
                         <select class="booking__input input" required>
-                            <option selected disabled hidden>Time</option>
+                            <option selected disabled hidden value="">Time</option>
                             <option class="booking__option">14.00</option>
                             <option class="booking__option">15.00</option>
                             <option class="booking__option">16.00</option>
@@ -363,7 +363,7 @@
                 <input required placeholder="Email" type="email" class="contact__input input">
                 <input required placeholder="Phone" type="tel" class="contact__input input">
             </div>
-            <input placeholder="Message" class="input input_size_big">
+            <input required placeholder="Message" class="input input_size_big">
             <div class="contact__container">
                 <div class="contact__item">
                     <img src="../images/adress.svg" alt="adress icon" class="contact__icon">
@@ -385,13 +385,23 @@
         <p class="footer__text">&copy; Copyright Mindblister 2021</p>
     </footer>
 
-    <div class="popup">
+    <div class="popup popup_type_booking">
         <div class="popup__content">
             <button
                     type="button"
                     class="popup__close-button"
             ></button>
             <p class="popup__text">Your application has been accepted, please wait for the confirmation from the manager</p>
+        </div>
+    </div>
+
+    <div class="popup popup_type_contact">
+        <div class="popup__content">
+            <button
+                    type="button"
+                    class="popup__close-button"
+            ></button>
+            <p class="popup__text">Thank you for your message. We will contact you soon</p>
         </div>
     </div>
 <script src="index.js"></script>

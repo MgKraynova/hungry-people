@@ -5,7 +5,8 @@ const thirdBurgerLine = document.getElementById('third-line');
 const burgerIcon = document.querySelector('.burger-icon');
 const burgerMenu = document.querySelector('.burger__list');
 
-const bookingButton = document.querySelector('.booking__button');
+const bookingForm = document.querySelector('.booking__form');
+const contactForm = document.querySelector('.contact__form');
 
 function switchBurgerIcon() {
     firstBurgerLine.classList.toggle('burger-icon__line_animation_first-line');
@@ -73,10 +74,19 @@ class Popup {
     }
 }
 
-const popupConfirmation = new Popup('.popup');
+const popupConfirmation = new Popup('.popup_type_booking');
 popupConfirmation.setEventListeners();
 
-bookingButton.addEventListener('click', (e) => {
-    // e.preventDefault();
+const popupContact = new Popup('.popup_type_contact');
+popupContact.setEventListeners();
+
+
+bookingForm.addEventListener('submit', (e) => {
+    e.preventDefault();
     popupConfirmation.openPopup();
+})
+
+contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    popupContact.openPopup();
 })
