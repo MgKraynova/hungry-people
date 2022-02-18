@@ -1,6 +1,5 @@
 .title-container {
     display: flex;
     flex-direction: column;
-    /*!*justify-content: space-between;*! todo убрать*/
     align-items: center;
 }
