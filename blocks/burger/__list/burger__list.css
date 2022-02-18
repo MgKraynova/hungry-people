@@ -1,0 +1,17 @@
+.burger__list {
+    background-color: black;
+    position: absolute;
+    width: 130px;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    z-index: 10;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    transition: all .4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    margin-left: -95px;
+    display: flex;
+}

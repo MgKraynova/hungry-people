@@ -34,6 +34,10 @@
 @import url(../blocks/burger-icon/__line/_animation/burger-icon__line_animation_second-line.css);
 @import url(../blocks/burger-icon/__line/_animation/burger-icon__line_animation_third-line.css);
 
+@import url(../blocks/burger/__list/burger__list.css);
+@import url(../blocks/burger/__list/_active/burger__list_active.css);
+@import url(../blocks/burger/__item/burger__item.css);
+@import url(../blocks/burger/__link/burger__link.css);
 
 @import url(../blocks/hungry-people/hungry-people.css);
 

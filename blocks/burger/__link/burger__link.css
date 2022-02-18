@@ -1,0 +1,14 @@
+.burger__link {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 167%;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.burger__link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline: #FFFFFF;
+}

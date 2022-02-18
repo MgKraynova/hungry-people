@@ -12,6 +12,7 @@
     align-items: center;
 
     background-color: rgb(13, 9, 4);
+    overflow: hidden;
 }
 
 html {

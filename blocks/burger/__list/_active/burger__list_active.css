@@ -1,0 +1,5 @@
+.burger__list_active {
+    margin-left: -95px;
+    opacity: 1;
+    visibility: visible;
+}

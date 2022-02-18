@@ -1,0 +1,10 @@
+.burger__item {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.burger__item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline: #FFFFFF;
+}
