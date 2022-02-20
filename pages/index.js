@@ -84,9 +84,11 @@ popupContact.setEventListeners();
 bookingForm.addEventListener('submit', (e) => {
     e.preventDefault();
     popupConfirmation.openPopup();
+    bookingForm.reset();
 })
 
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     popupContact.openPopup();
+    contactForm.reset();
 })
