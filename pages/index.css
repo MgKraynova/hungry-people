@@ -53,8 +53,8 @@
 
 @import url(../blocks/social-icons/social-icons.css);
 @import url(../blocks/social-icons/__link/social-icons__link.css);
-@import url(../blocks/social-icons/__link/_fb/social-icons__link_fb.css);
-@import url(../blocks/social-icons/__link/_instagram/social-icons__link_instagram.css);
+@import url(../blocks/social-icons/__link/_t/social-icons__link_fb.css);
+@import url(../blocks/social-icons/__link/_vk/social-icons__link_vk.css);
 @import url(../blocks/social-icons/__link/_twitter/social-icons__link_twitter.css);
 
 @import url(../blocks/about-us/about-us.css);
