@@ -1,31 +1,36 @@
 .title-container__button {
-    display: block;
-    width: 200px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    padding-top: 20px;
-    box-sizing: border-box;
+  display: block;
+  width: 200px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  box-sizing: border-box;
+  transition: filter 200ms linear, transform 200ms linear;
+}
+
+.title-container__button:hover {
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 899px) {
-    .title-container__button {
-        width: 140px;
-    }
+  .title-container__button {
+    width: 140px;
+  }
 }
 
 @media screen and (max-width: 899px) {
-    .title-container__button {
-        max-width: 220px;
-        margin-bottom: 40px;
-    }
+  .title-container__button {
+    max-width: 220px;
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 469px) {
-    .title-container__button {
-        margin-bottom: 0;
-        width: 200px;
-    }
+  .title-container__button {
+    margin-bottom: 0;
+    width: 200px;
+  }
 
-    .title-container__button:last-of-type {
-        margin-bottom: 30px;
-    }
+  .title-container__button:last-of-type {
+    margin-bottom: 30px;
+  }
 }

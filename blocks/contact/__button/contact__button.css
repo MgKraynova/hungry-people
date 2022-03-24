@@ -1,10 +1,15 @@
 .contact__button {
-    width: 640px;
+  width: 640px;
+  transition: filter 200ms linear, transform 200ms linear;
+}
+
+.contact__button:active {
+  transform: scale(0.9);
 }
 
 @media screen and (max-width: 1009px) {
-    .contact__button {
-        width: 100%;
-        margin-top: 15px;
-    }
+  .contact__button {
+    width: 100%;
+    margin-top: 15px;
+  }
 }

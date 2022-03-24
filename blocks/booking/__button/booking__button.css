@@ -1,27 +1,32 @@
 .booking__button {
-    display: block;
-    padding: 0;
-    box-sizing: border-box;
-    width: 563.58px;
-    margin-top: 10px;
+  display: block;
+  padding: 0;
+  box-sizing: border-box;
+  width: 563.58px;
+  margin-top: 10px;
+  transition: filter 200ms linear, transform 200ms linear;
+}
+
+.booking__button:active {
+  transform: scale(0.9);
 }
 
 @media screen and (max-width: 639px) {
-    .booking__button  {
-        width: 410px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+  .booking__button {
+    width: 410px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 @media screen and (max-width: 499px) {
-    .booking__button {
-        width: 280px;
-    }
+  .booking__button {
+    width: 280px;
+  }
 }
 
 @media screen and (max-width: 435px) {
-    .booking__button {
-        width: 250px;
-    }
+  .booking__button {
+    width: 250px;
+  }
 }

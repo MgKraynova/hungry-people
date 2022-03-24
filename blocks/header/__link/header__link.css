@@ -1,11 +1,17 @@
 .header__link {
-    display: block;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 150%;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    color: #FFFFFF;
-    text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  transition: filter 200ms linear, transform 200ms linear;
+}
+
+.header__link:hover {
+  cursor: pointer;
+  transform: scale(1.15);
 }
